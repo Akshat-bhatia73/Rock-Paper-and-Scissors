@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Fraunces", sans-serif;
+}
+
+/*Main Body*/
+body {
+    height: 100vh;
+    background: linear-gradient(0.25turn, #07232f, #2e2f2e, #945c21);
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*ScoreBoard*/
+.score {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 2px;
+}
+
+.scores {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+/*Main Div*/
+.main {
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 10px;
+}
+
+#heading {
+    width: 25ch;
+    text-align: center;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+.input {
+    font-size: 5rem;
+    text-align: center;
+    border: 2px solid white;
+    padding:10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.input:hover{
+    background-color: rgb(52, 51, 51);
+    cursor: pointer;
+}
